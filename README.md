@@ -10,7 +10,7 @@ A lógica de integração é simples: caso um rosto permitido seja detectado pel
 
 # Utilização
 
-CERTIFIQUE-SE DE TER UMA WEBCAM
+CERTIFIQUE-SE DE TER UMA WEBCAM!
 
 Primeiramente, baixe as seguintes bibliotecas:
 
@@ -25,7 +25,7 @@ Feito isso, coloque os códigos, "DeteccaoFacial.py", "IntegracaoArduino.py", "N
    
 Crie uma pasta chamada "images" no mesmo diretório dos códigos. Nessa pasta, coloque fotos dos rostos de pessoas que você deseja reconhecer, o nome das imagens precisam ser o nome das pessoas presentes nas imagens.
 
-Após isso, basta rodar o código.
+Após isso, basta rodar o código e começar a detecção.
 
 
 
