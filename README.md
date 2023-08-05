@@ -33,7 +33,7 @@ Experimente colocar uma foto do messi na webcam e veja funcionando.
 
 1) Caso o código não esteja funcionando, tente mudar o valor da variável "index_webcam" para números maiores que 0
 
-2) No código "IntegracaoArduino.py", note que eu estou utilizando a porta "COM3". É importante verificar qual porta seu Arduino está conectado, caso esteja conectado em outra porta, basta mudar no código. 
+2) No código "IntegracaoArduino.py", note que eu estou utilizando a porta "COM3". É importante verificar em qual porta seu Arduino está conectado, caso esteja conectado em outra porta, basta mudar no código. 
 
 
 
