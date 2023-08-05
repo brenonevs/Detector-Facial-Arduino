@@ -14,12 +14,12 @@ CERTIFIQUE-SE DE TER UMA WEBCAM
 
 Primeiramente, baixe as seguintes bibliotecas:
 
-1) cv2 (OpenCV)
-2) face_recognition
-3) os
-4) glob
-5) numpy
-6) pyfirmata (Caso deseje integrar com o Arduino)
+1) Cv2 (OpenCV)
+2) Face_recognition
+3) Os
+4) Glob
+5) Numpy
+6) Pyfirmata (Caso deseje integrar com o Arduino)
 
 Feito isso, coloque os códigos, "DeteccaoFacial.py", "IntegracaoArduino.py", "NomesPermitidos.py", "simple_facerec.py" na mesma pasta.
    
