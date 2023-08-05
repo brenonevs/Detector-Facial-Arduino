@@ -6,3 +6,10 @@ A primeira parte do projeto explora o uso da webcam para realizar a detecção d
 Para garantir uma maior segurança e controle de acesso, o projeto também conta com integração com um dispositivo Arduino. Um segundo código Python foi desenvolvido para realizar a comunicação entre o programa de detecção facial e o Arduino. Nesse código, o usuário pode definir uma lista de rostos permitidos, ou seja, rostos previamente cadastrados e autorizados a ter acesso.
 
 A lógica de integração é simples: caso um rosto permitido seja detectado pela webcam, o código envia um sinal para o Arduino, que pode ser um sinal luminoso, sonoro ou qualquer outro tipo de dispositivo conectado ao Arduino. Da mesma forma, caso um rosto não autorizado seja detectado, o Arduino pode emitir um alerta, sinalizando a presença de uma pessoa não autorizada.
+
+
+# Utilização
+
+Primeiramente, baixe as seguintes bibliotecas:
+
+1)
