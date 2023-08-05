@@ -2,12 +2,15 @@ import cv2
 from simple_facerec import SimpleFacerec
 from NomesPermitidos import allowed_names
 
+# Indíce da Webcam
+index_webcam = 0
+
 # Codifica as faces da pasta
 sfr = SimpleFacerec()
 sfr.load_encoding_images("images/")
 
 # Carrega a câmera
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(index_webcam)
 
 # Obtém nomes permitidos
 images = r"CAMINHO/PARA/PASTA/IMAGES"
