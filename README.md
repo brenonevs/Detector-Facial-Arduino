@@ -10,6 +10,8 @@ A lógica de integração é simples: caso um rosto permitido seja detectado pel
 
 # Utilização
 
+CERTIFIQUE-SE DE TER UMA WEBCAM
+
 Primeiramente, baixe as seguintes bibliotecas:
 
 1) cv2 (OpenCV)
@@ -18,5 +20,13 @@ Primeiramente, baixe as seguintes bibliotecas:
 4) glob
 5) numpy
 6) pyfirmata (Caso deseje integrar com o Arduino)
+
+Feito isso, coloque os códigos, "DeteccaoFacial.py", "IntegracaoArduino.py", "NomesPermitidos.py", "simple_facerec.py" na mesma pasta.
    
-Cria uma pasta chamada "images" no mesmo diretório do código. Nessa pasta, coloque fotos dos rostos de pessoas que você deseja reconhecer, o nome das imagens precisam ser o nome das pessoas presentes nas imagens.
+Crie uma pasta chamada "images" no mesmo diretório dos códigos. Nessa pasta, coloque fotos dos rostos de pessoas que você deseja reconhecer, o nome das imagens precisam ser o nome das pessoas presentes nas imagens.
+
+Após isso, basta rodar o código.
+
+
+
+
