@@ -1,5 +1,5 @@
 # Detector Facial com integração do Arduino
-Este projeto em Python oferece uma solução completa para detecção facial, permitindo tanto a análise de imagens em uma pasta quanto o reconhecimento de rostos em tempo real através da webcam. A detecção facial é realizada por meio da biblioteca OpenCV, que é amplamente utilizada para tarefas de visão computacional.
+Este projeto em Python oferece uma solução completa para detecção facial, permitindo a análise de imagens em uma pasta e o reconhecimento de rostos em tempo real através da webcam. A detecção facial é realizada por meio da biblioteca OpenCV, que é amplamente utilizada para tarefas de visão computacional.
 
 A primeira parte do projeto explora o uso da webcam para realizar a detecção de rostos em tempo real. Ao executar esse código, a webcam é ativada, e o programa utiliza a abordagem de detecção facial do OpenCV para identificar e destacar os rostos presentes na cena em tempo real. Isso possibilita que os rostos sejam identificados em tempo real enquanto aparecem na webcam. Rostos não conhecidos, ou seja, os rostos que não foram colocados na pasta "images" serão destacados como "Desconhecido" enquanto os demais terão o seu nome destacado.
 
@@ -12,4 +12,11 @@ A lógica de integração é simples: caso um rosto permitido seja detectado pel
 
 Primeiramente, baixe as seguintes bibliotecas:
 
-1)
+1) cv2 (OpenCV)
+2) face_recognition
+3) os
+4) glob
+5) numpy
+6) pyfirmata (Caso deseje integrar com o Arduino)
+   
+Cria uma pasta chamada "images" no mesmo diretório do código. Nessa pasta, coloque fotos dos rostos de pessoas que você deseja reconhecer, o nome das imagens precisam ser o nome das pessoas presentes nas imagens.
