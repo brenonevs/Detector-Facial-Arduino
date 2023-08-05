@@ -16,7 +16,7 @@ cap = cv2.VideoCapture(0)
 Uno = Arduino('COM3')
 
 # Obtém nomes permitidos
-images = r"C:\Users\breno\PycharmProjects\ReconhecimentoFacial\images"
+images = r"CAMINHO/PARA/PASTA/IMAGES"
 allowed_names = allowed_names(images)
 
 # Roda o código de detecção
