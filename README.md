@@ -27,6 +27,12 @@ Crie uma pasta chamada "images" no mesmo diretório dos códigos. Nessa pasta, c
 
 Após isso, basta rodar o código e começar a detecção.
 
+# Observações
+
+1) Caso o código não esteja funcionando, tente mudar o valor da variável "index_webcam" para números maiores que 0
+
+2) No código "IntegracaoArduino.py", note que eu estou utilizando a porta "COM3". É importante verificar qual porta seu Arduino está conectado, caso esteja conectado em outra porta, basta mudar no código. 
+
 
 
 
