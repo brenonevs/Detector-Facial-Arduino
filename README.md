@@ -27,6 +27,8 @@ Crie uma pasta chamada "images" no mesmo diretório dos códigos. Nessa pasta, c
 
 Após isso, basta rodar o código e começar a detecção.
 
+Experimente colocar uma foto do messi na webcam e veja funcionando.
+
 # Observações
 
 1) Caso o código não esteja funcionando, tente mudar o valor da variável "index_webcam" para números maiores que 0
